@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Задание 1</title>
+  </head>
+<body>
+<h1>Жданов Константин,Задание 1</h1>
+<ol>
+	<li> абсолютную гиперссылку на главную страницу сайта <a href="http://example.com/">example.com</a> </li>
+	<li> абсолютную гиперссылку на главную страницу сайта <a href="https://example.com/">example.com</a> </li>
+	<li> <a href="https://www.asos.com/ru/search/?currentpricerange=390-22370&q=nike%20p-6000&refine=attribute_1047:8606">ссылку</a> на файл на сервере FTP без авторизации </li>
+	<li> <a href="ftp://user:qwe123@example.com">ссылка</a> на файл на сервере FTP с авторизацией </li>
+	<li> <a href="http://example.com#an"> ссылку</a> на фрагмент страницы некоторого сайта </li>
+	<li> <a href="#form">Форма</a> </li>
+	<li> <a href="https://example.com?color=red&size=xl">ссылку</a> с двумя параметрами в URL </li>
+	<li>
+    <ul>
+      <li><a href="#form" title="Форма">Форма</a></li>
+      <li><a href="#bio" title="Биография">Биография</a></li>
+   </ul>
+ </li>
+	<li> <a>ссылка</a> без href </li>
+	<li> <a href="">ссылка</a> с пустым href </li>
+	<li> <a href="http://example.com/" rel="nofollow">ссылка</a> по которой запрещен переход поисковикам </li>
+	<li> <a href="http://example.com/" rel="noindex">ссылка</a> запрещенная для индексации поисковиками</li>
+	<li> <p><a href="https://kubsu.ru">ссылка</a> контекстная в тексте абзаца</p></li>
+	<li> <a href="https://www.google.com/search?q=%D0%BC%D0%BE%D1%80%D0%B5&sxsrf=AOaemvL1qmkpI4PKViGSfMKLFiHL6qzWHw:1640544869441&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj79bjxkYL1AhXjAxAIHSjLBTQQ_AUoAXoECAIQAw&biw=2400&bih=1183&dpr=0.8#imgrc=Kao5j4oMIJG7uM">
+     <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsochi.scapp.ru%2Fscapp-gorod%2Fkto-obitaet-v-chyornom-more%2F&psig=AOvVaw1M0l9EQPQE10tUWMwHtcSP&ust=1640631271714000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCjwPSRgvUCFQAAAAAdAAAAABAD" width="50"
+		   height="50" alt="ссылку-изображение;"></a></li>
+			<li> <a href="https://www.google.com/search?q=%D0%BC%D0%BE%D1%80%D0%B5&sxsrf=AOaemvL1qmkpI4PKViGSfMKLFiHL6qzWHw:1640544869441&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj79bjxkYL1AhXjAxAIHSjLBTQQ_AUoAXoECAIQAw&biw=2400&bih=1183&dpr=0.8#imgrc=Kao5j4oMIJG7uM"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsochi.scapp.ru%2Fscapp-gorod%2Fkto-obitaet-v-chyornom-more%2F&psig=AOvVaw1M0l9EQPQE10tUWMwHtcSP&ust=1640631271714000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCjwPSRgvUCFQAAAAAdAAAAABAD" width="200" height="50" usemap="#map" alt="Ссылки из прямоугольных и круглых областей картинки "></a>
+				<map name="map"> <area shape="circle" alt="Круг" coords="72,25,20" href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B3">
+			    <area shape="circle" alt="Круг" coords="172,25,20" href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B3">
+			    <area shape="rect" alt="Квадрат" coords="4,4,44,44" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82">
+			    <area shape="rect" alt="Квадрат" coords="102,4,142,44" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82">
+				</map> </li>
+	<li> <a href="/web1.html"> относительную на страницу в текущем каталоге</a> </li>
+	<li> <a href="about/web1.html">относительную на страницу в каталоге about</a> </li>
+	<li> <a href="../web1.html"> относительную на страницу в каталоге уровнем выше текущего</a> </li>
+	<li> <a href="../../web1.html">относительную на страницу в каталоге двумя уровнями выше</a> </li>
+	<li> <a href="/web1.html">сокращенную на главную</a> </li>
+	<li> <a href="/papka/web1.html"> сокращенную ссылку на внутреннюю</a> </li>
+</ol>
+
+<p>Форма:</p>
+ФИО:
+  <label id="form">
+      <input placeholder="Ваше ФИО" >
+  </label>
+  <br>
+  <br>
+  E-mail:
+  <label>
+    <input placeholder="Введите e-mail">
+  </label>
+
+  <p>Ваш год рождения:</p>
+  <label>
+    <select>
+
+      <option value="1999">1999</option>
+      <option value="2000">2000</option>
+      <option value="2001" selected="selected">2001</option>
+      <option value="2002">2002</option>
+    </select>
+  </label>
+
+  <p>Пол:</p>
+  <label>
+    <input type="radio" name="radio-pol" checked="checked" value="Значение1">М
+  </label>
+  <label>
+    <input type="radio" name="radio-pol" value="Значение2" />Ж
+  </label>
+
+  <p>Количество конечностей</p><br/>
+<label>
+  <input type="radio" name="radio-kon" value="Значение1" />0
+</label>
+<label>
+  <input type="radio" name="radio-kon" value="Значение2" />1
+</label>
+<label>
+  <input type="radio" name="radio-kon" value="Значение3" />2
+</label>
+<label>
+  <input type="radio" name="radio-kon" value="Значение4" />3
+</label>
+
+<label>
+  <input type="radio" name="radio-kon" value="Значение4" />более 4
+</label>
+
+<p>Сверхспособности</p>
+<label>
+  <select name="sp-sp" multiple=multiple>
+    <option value="Значение1">Бессмертие</option>
+    <option value="Значение2"> Прохождение сквозь стены</option>
+    <option value="Значение3">Левитация</option>
+  </select>
+</label>
+
+<p id="bio">Биография</p>
+<label>
+  <textarea placeholder="......." name="field-biography" rows="6" cols="60"></textarea>
+</label>
+<br>
+
+<label>
+С контрактом ознакомлен
+  <input type="checkbox" name="check-ok" checked="checked">
+</label>
+<br>
+<input type="submit" value="Отправить">
+</body>
+</html>
