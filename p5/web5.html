@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>JS</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <h2>Калькулятор стоимости заказа</h2>
+                <label>Количество(шт.):<br><input type="text" id="kol" placeholder="0" oninput="this.value = this.value.replace(/[^0-9\.]+/g, '')"><br></label>
+                <label>Стоимость(ед.):<br><input type="text" id="ed" placeholder="0" oninput="this.value = this.value.replace(/[^0-9\.]+/g, '')"><br></label>
+                <input type="button" value="Стоимость" id="button">
+            </fieldset>
+        </form>
+        <br>
+        Итого:<div id="result"></div>
+        <script src="java.js" defer></script>
+    </body>
+</html>
