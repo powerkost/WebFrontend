@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Project 3
+  </title>
+
+  <link rel="stylesheet" href="stylelel.css">
+</head>
+
+<body class="flex-container">
+
+  <header class="flex-header">
+    <div class="flex-header-items">
+      <img id="img" src="logo.png" alt="LOGO">
+      <div id="name">Project 3</div>
+    </div>
+  </header>
+
+  <nav class="flex-nav">
+    <a class="flex-nav-element" href="#reffers">Ссылки</a>
+
+    <a class="flex-nav-element" href="#table">Таблица</a>
+
+    <a class="flex-nav-element" href="#form">Форма</a>
+  </nav>
+
+  <div class="flex-items">
+    <div id="reffers">
+
+      <p><a id="top"></a></p>
+
+      <h2>Нумерованный список гиперссылок</h2>
+
+      <ol>
+        <li><a href="http://example.com">Ссылка 1</a></li>
+
+        <li><a href="https://example.com">Ссылка 2</a></li>
+
+        <li><a href="ftp://example.com/Download/file.txt">Ссылка 3</a></li>
+
+        <li><a href="ftp://admin:admin@example.com/Download/file.txt">Ссылка 4</a></li>
+
+        <li><a href="http://example.com/file.html#example">Ссылка 5</a></li>
+
+        <li><a href="#top">Ссылка 6</a></li>
+
+        <li><a href="https://example.com?type=shirt&color=black">Ссылка 7</a></li>
+
+        <li>
+          <ul>
+            <li><a title="Ну какое вверх? Уже тут!">Вверх</a></li>
+
+            <li><a title="Ну какое вниз? Уже тут!">Вниз</a></li>
+          </ul>
+        </li>
+
+        <li><a>Ссылка 9</a></li>
+
+        <li><a href="">Ссылка 10</a></li>
+
+        <li><a href="https://example.com" rel="nofollow">Ссылка 11</a></li>
+
+        <li><a href="https://example.com" rel="dofollow">Ссылка 12</a></li>
+
+        <li>
+          <p>Контекстная ссылка <a href="https://example.com">тут</a></p>
+        </li>
+
+        <li><a href="https://example.com"><img
+              src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="150"
+              height="50" alt="google"></a></li>
+
+        <li>
+          <ul>
+            <li><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                width="150" height="50" usemap="#map" alt="google1">
+              <map name="map"> <area shape="circle" coords="75,25,24" alt="map1" href="https://example.com"></map>
+            </li>
+
+            <li><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                width="150" height="50" usemap="#map2" alt="google2">
+              <map name="map2"> <area shape="rect" coords="5,5,145,45" alt="map2" href="https://example.com"></map>
+            </li>
+          </ul>
+        </li>
+        <li><a href="example.html">Ссылка 16</a></li>
+
+        <li><a href="about/example.html">Ссылка 17</a></li>
+
+        <li><a href="../example.html">Ссылка 18</a></li>
+
+        <li><a href="../../example.html">Ссылка 19</a></li>
+
+        <li><a href="/1.html">Ссылка 20</a></li>
+
+        <li><a href="/1.html/example">Ссылка 21</a></li>
+      </ol>
+    </div>
+
+    <div id="table">
+
+      <h2>Таблица</h2>
+
+      <table>
+        <tr>
+          <th>A</th>
+          <th>B</th>
+          <th>C</th>
+        </tr>
+        <tr class="cell">
+          <td colspan="3">Ячейка A1 объединенная с B1 C1</td>
+        </tr>
+        <tr>
+          <td>A2</td>
+          <td>B2</td>
+          <td>C2</td>
+        </tr>
+        <tr class="cell">
+          <td>A3</td>
+          <td>B3</td>
+          <td>C3</td>
+        </tr>
+        <tr>
+          <td>A4</td>
+          <td colspan="2">B4 C4</td>
+        </tr>
+        <tr class="cell">
+          <td>A5</td>
+          <td>B5</td>
+          <td>C5</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="form">
+
+      <h2>Форма</h2>
+
+      <form action="example.com" method="POST">
+
+        <label>
+          Текстовое поле:<br />
+          <input name="field-name-1" value="имя" />
+        </label><br />
+
+        <label>
+          E-mail:<br />
+          <input name="field-email" value="example@example.com" type="email" />
+        </label><br />
+
+        <label>
+          ДР:<br />
+          <input name="field-date" value="2020-09-24" type="date" />
+        </label><br />
+
+        Пол:<br />
+        <label><input type="radio" checked="checked" name="radio-group-1" value="М" />
+          М</label>
+        <label><input type="radio" name="radio-group-1" value="Ж" />
+          Ж</label><br />
+
+        Кол-во конечностей:<br />
+        <label><input type="radio" checked="checked" name="radio-group-2" value="4" />
+          4</label>
+        <label><input type="radio" name="radio-group-2" value="8" />
+          8</label>
+        <label><input type="radio" name="radio-group-2" value="22" />
+          22</label><br />
+
+        <label>
+          Сверхспособности:
+          <br />
+          <select name="field-name-4[]" multiple="multiple">
+            <option value="Бессмертие">Бессмертие</option>
+            <option value="Прохождение сквозь стены">Прохождение сквозь стены</option>
+            <option value="Левитация" selected="selected">Левитация</option>
+          </select>
+        </label><br />
+
+        <label>
+          Биография:<br />
+          <textarea name="field-name-2">Был рожден на Марсе...</textarea>
+        </label><br />
+
+        Ознакомлен:<br />
+        <label><input type="checkbox" checked="checked" name="check-1" />
+          Соглашаюсь со всем</label><br />
+
+        <input type="submit" value="Отправить" />
+      </form>
+      <p><a id="bottom"></a></p>
+    </div>
+  </div>
+
+  <footer class="flex-footer">
+    <div class="flex-header-items">
+      <p class="flex-footer-element">(с) Жданов Константин 2021</p>
+    </div>
+  </footer>
+</body>
+
+</html>
