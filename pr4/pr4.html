@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 4</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="sty.css">
+</head>
+
+<body class="text-dark">
+  <div class="container-fluid">
+    <header class="row d-flex flex-row justify-content-center">
+      <div class="d-flex flex-row align-items-center justify-content-around justify-content-md-start col-md-9 px-md-4 h-100">
+        <img class="mr-md-2 border border-white rounded-circle" id="img" src="logo.png" alt="LOGO">
+        <div class="text-body" id="name">Project 4</div>
+      </div>
+    </header>
+
+    <nav class="row d-flex flex-row justify-content-center">
+      <div class="col-md-9 px-md-4 bg-dark mt-3">
+        <div class="d-flex flex-column flex-md-row justify-content-around py-2">
+          <a class="url text-decoration-none" href="#reffers">Ссылки</a>
+          <a class="url text-decoration-none" href="#table">Таблица</a>
+          <a class="url text-decoration-none" href="#form">Форма</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row d-flex flex-row justify-content-center">
+      <div class="col-md-9">
+        <div class="items d-flex flex-column">
+          <div id="reffers" class="order-md-1">
+            <p><a id="top"></a></p>
+
+            <h2>Нумерованный список гиперссылок</h2>
+
+            <ol class="ml-md-4">
+              <li><a class="text-decoration-none" href="http://example.com">Ссылка 1</a></li>
+
+              <li><a class="text-decoration-none" href="https://example.com">Ссылка 2</a></li>
+
+              <li><a class="text-decoration-none" href="ftp://example.com/Download/file.txt">Ссылка 3</a></li>
+
+              <li><a class="text-decoration-none" href="ftp://admin:admin@example.com/Download/file.txt">Ссылка 4</a></li>
+
+              <li><a class="text-decoration-none" href="http://example.com/file.html#example">Ссылка 5</a></li>
+
+              <li><a class="text-decoration-none" href="#top">Ссылка 6</a></li>
+
+              <li><a class="text-decoration-none" href="https://example.com?type=shirt&color=black">Ссылка 7</a></li>
+
+              <li>
+                <ul>
+                  <li><a class="text-decoration-none" title="Ну какое вверх? Уже тут!">Вверх</a></li>
+
+                  <li><a class="text-decoration-none" title="Ну какое вниз? Уже тут!">Вниз</a></li>
+                </ul>
+              </li>
+
+              <li><a class="text-decoration-none">Ссылка 9</a></li>
+
+              <li><a class="text-decoration-none" href="">Ссылка 10</a></li>
+
+              <li><a class="text-decoration-none" href="https://example.com" rel="nofollow">Ссылка 11</a></li>
+
+              <li><a class="text-decoration-none" href="https://example.com" rel="dofollow">Ссылка 12</a></li>
+
+              <li>
+                <p>Контекстная ссылка <a class="text-decoration-none" href="https://example.com">тут</a></p>
+              </li>
+
+              <li><a class="text-decoration-none" href="https://example.com"><img
+                    src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="150"
+                    height="50" alt="google"></a></li>
+
+              <li>
+                <ul>
+                  <li><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                      width="150" height="50" usemap="#map" alt="google1">
+                    <map name="map"> <area shape="circle" coords="75,25,24" alt="map1" href="https://example.com"></map>
+                  </li>
+
+                  <li><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                      width="150" height="50" usemap="#map2" alt="google2">
+                    <map name="map2"> <area shape="rect" coords="5,5,145,45" alt="map2"
+                        href="https://example.com"></map>
+                  </li>
+                </ul>
+              </li>
+              <li><a class="text-decoration-none" href="example.html">Ссылка 16</a></li>
+
+              <li><a class="text-decoration-none" href="about/example.html">Ссылка 17</a></li>
+
+              <li><a class="text-decoration-none" href="../example.html">Ссылка 18</a></li>
+
+              <li><a class="text-decoration-none" href="../../example.html">Ссылка 19</a></li>
+
+              <li><a class="text-decoration-none" href="/1.html">Ссылка 20</a></li>
+
+              <li><a class="text-decoration-none" href="/1.html/example">Ссылка 21</a></li>
+            </ol>
+          </div>
+
+          <div id="form" class="order-md-3">
+
+            <h2>Форма</h2>
+
+            <form action="example.com" method="POST">
+
+              <label>
+                Текстовое поле:<br />
+                <input name="field-name-1" value="имя" />
+              </label><br />
+
+              <label>
+                E-mail:<br />
+                <input name="field-email" value="example@example.com" type="email" />
+              </label><br />
+
+              <label>
+                ДР:<br />
+                <input name="field-date" value="2020-09-24" type="date" />
+              </label><br />
+
+              Пол:<br />
+              <label><input type="radio" checked="checked" name="radio-group-1" value="М" />
+                М</label>
+              <label><input type="radio" name="radio-group-1" value="Ж" />
+                Ж</label><br />
+
+              Кол-во конечностей:<br />
+              <label><input type="radio" checked="checked" name="radio-group-2" value="4" />
+                4</label>
+              <label><input type="radio" name="radio-group-2" value="8" />
+                8</label>
+              <label><input type="radio" name="radio-group-2" value="22" />
+                22</label><br />
+
+              <label>
+                Сверхспособности:
+                <br />
+                <select name="field-name-4[]" multiple="multiple">
+                  <option value="Бессмертие">Бессмертие</option>
+                  <option value="Прохождение сквозь стены">Прохождение сквозь стены</option>
+                  <option value="Левитация" selected="selected">Левитация</option>
+                </select>
+              </label><br />
+
+              <label>
+                Биография:<br />
+                <textarea name="field-name-2">Был рожден на Марсе...</textarea>
+              </label><br />
+
+              Ознакомлен:<br />
+              <label><input type="checkbox" checked="checked" name="check-1" />
+                Соглашаюсь со всем</label><br />
+
+              <input type="submit" value="Отправить" />
+            </form>
+            <p><a id="bottom"></a></p>
+          </div>
+
+          <div id="table" class="order-md-2">
+
+            <h2>Таблица</h2>
+
+            <table class="text-center border border-dark">
+              <tr>
+                <th class="border border-dark">A</th>
+                <th class="border border-dark">B</th>
+                <th class="border border-dark">C</th>
+              </tr>
+              <tr class="bg-secondary">
+                <td class="border border-dark" colspan="3">Ячейка A1 объединенная с B1 C1</td>
+              </tr>
+              <tr>
+                <td class="border border-dark">A2</td>
+                <td class="border border-dark">B2</td>
+                <td class="border border-dark">C2</td>
+              </tr>
+              <tr class="bg-secondary">
+                <td class="border border-dark">A3</td>
+                <td class="border border-dark">B3</td>
+                <td class="border border-dark">C3</td>
+              </tr>
+              <tr>
+                <td class="border border-dark">A4</td>
+                <td colspan="2" class="border border-dark">B4 C4</td>
+              </tr>
+              <tr class="bg-secondary">
+                <td class="border border-dark">A5</td>
+                <td class="border border-dark">B5</td>
+                <td class="border border-dark">C5</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="row d-flex flex-row justify-content-center h-md-75">
+      <div class="d-flex flex-row align-items-center col-md-9">
+        <div class="text-body">(с) Жданов Константин 2021</div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

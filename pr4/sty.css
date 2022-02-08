@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Kepler"; 
+  src: url("Kepler.otf") format("opentype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+body{
+  font-family: Kepler;
+  font-size: 20px;
+  background: rgb(214, 214, 214);
+}
+
+.url{ 
+  color:rgb(214, 214, 214);
+}
+
+.url:hover {
+  color:rgb(156, 25, 25);
+}
+
+a{
+  color:rgb(143, 24, 24);
+}
+
+a:hover {
+  color: black;
+}
+
+#img{
+  width: 60px; 
+  height: 60px; 
+}
+
+#name{
+  font-size: 50px;
+}
+
+header{
+  background-color:rgb(143, 24, 24); 
+  height:70px;
+}
+
+footer{
+  background-color: rgb(143, 24, 24);
+  height: 70px;
+}
+
+@media all and (orientation: landscape), (min-width: 768px) {
+  body{
+    font-size: 32px;
+  }
+
+  header{
+    height:120px;
+  }
+
+  #img{ 
+    width:100px; 
+    height:100px; 
+  }
+  
+  #name{
+    font-size: 90px;
+  }
+
+  footer{
+    height: 120px;
+  }
+
+  h2{
+    font-size: 56px;
+  }
+}
